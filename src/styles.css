@@ -1,0 +1,96 @@
+@import url("./reset.css");
+
+:root {
+  --witdh: 100vw;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  max-width: 100%;
+  max-height: 100%;
+}
+.numbersArea {
+  display: grid;
+  grid-template-columns: repeat (4, 1fr);
+  grid-template-rows: repeat (5, 1fr);
+  grid-gap: 20px;
+  border: 1px solid red;
+  width: var(--witdh);
+  height: 54vh;
+}
+
+.resultArea {
+  width: var(--witdh);
+  height: 30vh;
+  border: 1px solid red;
+  text-align:  right;
+  
+
+
+}
+.result {
+  position: relative;
+  top: 50%;
+
+  }
+
+.historyArea {
+  width: var(--witdh);
+  height: 15vh;
+  border: 1px solid red;
+}
+
+.number9 {
+  grid-column: 3;
+  grid-row: 2;
+}
+.number8 {
+  grid-column: 2;
+  grid-row: 2;
+}
+.number7 {
+  grid-column: 1;
+  grid-row: 2;
+}
+.number6 {
+  grid-column: 3;
+  grid-row: 3;
+}
+.number5 {
+  grid-column: 2;
+  grid-row: 3;
+}
+.number4 {
+  grid-column: 1;
+  grid-row: 3;
+}
+.number3 {
+  grid-column: 3;
+  grid-row: 4;
+}
+.number2 {
+  grid-column: 2;
+  grid-row: 4;
+}
+.number1 {
+  grid-column: 1;
+  grid-row: 4;
+}
+.number0 {
+  grid-column: 1;
+  grid-row: 5;
+}
+.dot {
+  grid-column: 2;
+  grid-row: 5;
+}
+.equal {
+  grid-column: 3;
+  grid-row: 5;
+}
+.allClear {
+  grid-column: 4;
+  grid-row: 5;
+}
+
