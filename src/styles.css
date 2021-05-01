@@ -23,7 +23,6 @@
 .resultArea {
   width: var(--witdh);
   height: 30vh;
-  border: 1px solid red;
   text-align:  right;
   
 
@@ -38,7 +37,6 @@
 .historyArea {
   width: var(--witdh);
   height: 15vh;
-  border: 1px solid red;
 }
 
 .number9 {
