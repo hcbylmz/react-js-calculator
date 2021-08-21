@@ -1,5 +1,5 @@
 # react-js-calculator
-Created with CodeSandbox
+npm ru
 
 
 Not completed yet :(
